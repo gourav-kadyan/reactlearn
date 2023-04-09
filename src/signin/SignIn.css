@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.form{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    margin-top: 200px;
+    margin-left: 38%;
+    margin-right: 38%;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+
+.inputbox {
+    padding: 10px;
+    margin-bottom: 7px;
+    border-radius: 9px;
+
+
+    font-size: 16px;
+    font-weight: bold;
+    background: #eee;
+  }
+
+  .btn {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 7px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    width: 235px;
+    margin: 3px;
+  }
+
+.sign {
+    color: white;
+    background: red;
+
+}
+
+.foogle{
+    color: white;
+    background: blue;
+}
+
+.github {
+    color: white;
+    background: black;
+}
+  
