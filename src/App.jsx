@@ -1,18 +1,25 @@
 
 import React from "react";
-//import Counter from "./customhooks/Counter";
-//import ParentComponent from "./counter/ParentComponent";
+import Show from "./hide/show the element/Show";
+import Counter from "./customhooks/Counter";
+import ParentComponent from "./counter/ParentComponent";
 //import SignIn from "./signin/SignIn";
-//import Array from "./display array of users/Array";
+import Array from "./display array of users/Array";
 
 function App(){
     return (
         <>
             {/* <SignIn /> */}
-            {/* <ParentComponent /> */}
-            {/* <Counter /> */}
-            <h1>working</h1>
-            {/* <Array /> */}
+            <h1>ques 1</h1>
+            <ParentComponent />
+            <h1>ques 2</h1>
+            <Counter />
+            <h1>ques 3</h1>
+            <Array />
+            <h1>ques 4</h1>
+            <Show />
+            <h1>ques 5</h1>
+            
         </>
     );
 }
