@@ -5,6 +5,7 @@ import Counter from "./customhooks/Counter";
 import ParentComponent from "./counter/ParentComponent";
 //import SignIn from "./signin/SignIn";
 import Array from "./display array of users/Array";
+import Binding from "./2 way data binding/Binding";
 
 function App(){
     return (
@@ -19,6 +20,8 @@ function App(){
             <h1>ques 4</h1>
             <Show />
             <h1>ques 5</h1>
+            <Binding />
+            <h1>ques 6</h1>
             
         </>
     );
