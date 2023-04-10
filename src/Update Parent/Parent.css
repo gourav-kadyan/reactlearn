@@ -1,0 +1,14 @@
+div {
+    padding: 10px;
+}
+
+.wrapper {
+    margin: 20px;
+    border: 2px solid rgb(84, 118, 134);
+}
+
+.box-wrapper {
+    width: max-content;
+    padding: 2px;
+    border: 2px solid blue;
+}
