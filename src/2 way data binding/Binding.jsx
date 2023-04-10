@@ -6,7 +6,7 @@ const Binding = () => {
     <>
         <div>data Binding</div>
         <input type="text" placeholder='Enter text here' value={value} onChange={(event) => setValue(event.target.value)}></input>
-        <h3>{value}</h3>
+        <h4>{value}</h4>
     </>
   )
 }

@@ -6,6 +6,7 @@ import ParentComponent from "./counter/ParentComponent";
 //import SignIn from "./signin/SignIn";
 import Array from "./display array of users/Array";
 import Binding from "./2 way data binding/Binding";
+import Disabled from "./disabled button/Disabled";
 
 function App(){
     return (
@@ -22,6 +23,8 @@ function App(){
             <h1>ques 5</h1>
             <Binding />
             <h1>ques 6</h1>
+            <Disabled />
+            <h1>ques 7</h1>
             
         </>
     );
