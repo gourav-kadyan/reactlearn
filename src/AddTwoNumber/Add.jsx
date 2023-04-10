@@ -11,8 +11,8 @@ const Add = () => {
 
   return (
     <div>
-        <input type="number" name="num1" value={num1} onChange={(e) => setNum1(+e.target.value)} />
-        <input type="number" name="num1" value={num2} onChange={(e) => setNum2(+e.target.value)} />
+        <input type="number" value={num1} onChange={(e) => setNum1(+e.target.value)} />
+        <input type="number" value={num2} onChange={(e) => setNum2(+e.target.value)} />
         <button onClick={calculate} >Add the numbers</button>
         <h4>total : {total || ""}</h4>
     </div>
