@@ -1,4 +1,4 @@
-import "./css files/App.css";
+// import "./css files/App.css";
 import React from "react";
 
 import Show from "./hide/show the element/Show";
@@ -27,10 +27,12 @@ import ChildforParent from "./print child/ChildforParent";
 
 import Add from "./AddTwoNumber/Add";
 
+import Formvalidation from "./validation form/Formvalidation";
+
 function App(){
     return (
         <>
-            <h1>ques 1 - sigin form</h1>
+            {/* <h1>ques 1 - sigin form</h1>
             <SignIn />
             <h1>ques 2 - counter sum</h1>
             <ParentComponent />
@@ -62,6 +64,8 @@ function App(){
             </Parentforchild>
             <h1>ques 11 - add two numbers</h1>
             <Add />
+            <h1>ques 12 - validation form </h1> */}
+            < Formvalidation />
         </>
     );
 }
